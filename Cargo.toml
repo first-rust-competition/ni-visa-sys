@@ -1,0 +1,9 @@
+[package]
+name = "ni-visa-sys"
+version = "0.20.9"
+authors = ["David Vo <david@vovo.id.au>"]
+edition = "2018"
+links = "visa"
+build = "build.rs"
+
+[dependencies]
