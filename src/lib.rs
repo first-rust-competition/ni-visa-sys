@@ -10,4 +10,7 @@ pub type ViInt16 = i16;
 pub type ViInt8 = i8;
 pub type ViByte = u8;
 
+pub const VI_TRUE: ViBoolean = 1;
+pub const VI_FALSE: ViBoolean = 0;
+
 include!("bindings.rs");
